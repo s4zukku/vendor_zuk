@@ -123,6 +123,7 @@ android_app_import {
 		enabled: false,
 	},
 	system_ext_specific: true,
+        enforce_uses_libs: false,
 }
 
 android_app_import {
@@ -134,6 +135,7 @@ android_app_import {
 		enabled: false,
 	},
 	system_ext_specific: true,
+        enforce_uses_libs: false,
 }
 
 android_app_import {
@@ -146,7 +148,9 @@ android_app_import {
 	},
 	privileged: true,
 	system_ext_specific: true,
+        enforce_uses_libs: false,
 }
+
 
 android_app_import {
 	name: "ims",
@@ -158,6 +162,7 @@ android_app_import {
 	},
 	privileged: true,
 	system_ext_specific: true,
+        enforce_uses_libs: false,
 }
 
 android_app_import {
@@ -170,6 +175,7 @@ android_app_import {
 	},
 	privileged: true,
 	system_ext_specific: true,
+        enforce_uses_libs: false,
 }
 
 dex_import {
